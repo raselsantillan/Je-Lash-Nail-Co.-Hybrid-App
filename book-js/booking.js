@@ -16,6 +16,16 @@ $(function () {
     $("#time").attr('min', '08:00');
     $("#time").attr('max', '21:00');
 
+    // Disable Saturdays and Sundays in the date picker
+    $("#date").on('input', function () {
+        let selectedDate = new Date(this.value);
+        let day = selectedDate.getUTCDay();
+        if (day === 0 || day === 6) {
+            this.value = '';
+            alert("Weekends are not available. Please choose a weekday.");
+        }
+    });
+
     $("#bookNowButton").click(function (event) {
         event.preventDefault();
         $("#bookingForm").submit();

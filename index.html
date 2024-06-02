@@ -20,6 +20,9 @@
 
         <!-- Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Icon -->
+        <link rel="icon" type="image/x-icon" href="img/icon.png">
     </head>
 
     <body>
@@ -58,22 +61,43 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Je'Lash & Nail <span>Co.</span></a>
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" alt="Logo" class="brand-logo">
+                    <div class="brand-text"> Je'Lash & Nail <span>Co.</span> </div>
+                </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
         
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="price.html" class="nav-item nav-link">Prices</a>
-                        <a href="team.html" class="nav-item nav-link">Experts</a>
-                        <a href="portfolio.html" class="nav-item nav-link">Gallery</a>
-                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="index.html" class="nav-item nav-link-home active">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
+                            <div class="dropdown-menu">
+                                <a href="about.html" class="dropdown-item">About</a>
+                                <a href="team.html" class="dropdown-item">Expert</a>
+                            </div>
+                        </div>
+                        
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu">
+                                <a href="service.html" class="dropdown-item">Services</a>
+                                <a href="price.html" class="dropdown-item">Prices</a>
+                            </div>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gallery</a>
+                            <div class="dropdown-menu">
+                                <a href="gallery.html" class="dropdown-item">Gallery</a>
+                                <a href="blog.html" class="dropdown-item">Blog</a>
+                            </div>
+                        </div>
+
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        <a href="booking.html" class="nav-item nav-link">Book</a>
+                        <a href="booking.html" class="nav-item nav-link book-online">Book Online</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +115,7 @@
                             <p>
                                 Elevate your look with our exceptional nail and lash services. Experience professional care and stunning results that enhance your natural beauty.
                             </p>
-                            <a class="btn" href="#">Book Now</a>
+                            <a class="btn" href="booking.html">Book Now</a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 d-none d-md-block">
@@ -106,6 +130,7 @@
             </div>
         </div>
         <!-- Hero End -->
+
 
         <!-- Video Modal Start-->
         <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -149,7 +174,7 @@
                                 Although Je'Lash & Nail Co. currently operates without a physical storefront, the owner offers home services to clients or invites them to her location at Balanacan Pier, Mogpog,
                                 Marinduque. Whether you need a manicure, a pedicure, or a lash lift, Je'Lash & Nail Co. can deliver quality results that will make you feel confident and beautiful.
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="about.html">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +200,7 @@
                             <p>
                                 Elevate your style with our luxurious manicures. Perfectly polished nails and pampered hands await you.
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="service.html">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -187,7 +212,7 @@
                             <p>
                                 Step into comfort and elegance with our soothing pedicures. Experience a foot care for beautiful, happy feet.
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="service.html">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -199,7 +224,7 @@
                             <p>
                                 Enhance your natural beauty with our stunning lash extensions. Get the luscious, full lashes you've always liked.
                             </p>
-                            <a class="btn" href="">Learn More</a>
+                            <a class="btn" href="service.html">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -361,7 +386,7 @@
                     <div class="testimonial-item">
                         <img src="img/testimonial-1.jpg" alt="Image">
                         <p>
-                            I absolutely love the services at Je'Lash & Nail Co.! The staff is incredibly professional, and my lashes have never looked better. The booking process is super easy, and I always leave feeling pampered and beautiful.
+                            I absolutely love the services at Je'Lash & Nail Co.! The owner is incredibly professional, and my lashes have never looked better. The booking process is super easy, and I always leave feeling pampered and beautiful.
                         </p>
                         <h2>Genesis Manuevo</h2>
                         <h3>Student</h3>
@@ -377,7 +402,7 @@
                     <div class="testimonial-item">
                         <img src="img/testimonial-3.jpg" alt="Image">
                         <p>
-                            Amazing experience every time! The team at Je'Lash & Nail Co. is friendly and skilled. My nails and lashes look flawless, and I appreciate the relaxing atmosphere. Signing up for their newsletter was the best decision—I never miss out on their fantastic deals!
+                            Amazing experience every time! The owner of Je'Lash & Nail Co. is friendly and skilled. My nails and lashes look flawless, and I appreciate the relaxing atmosphere. I never miss out on their fantastic deals!
                         </p>
                         <h2>Ian Sartillo</h2>
                         <h3>Student</h3>
@@ -385,7 +410,7 @@
                     <div class="testimonial-item">
                         <img src="img/testimonial-4.jpg" alt="Image">
                         <p>
-                            Amazing experience every time! The team at Je'Lash & Nail Co. is friendly and skilled. My nails and lashes look flawless, and I appreciate the relaxing atmosphere. Signing up for their newsletter was the best decision—I never miss out on their fantastic deals!
+                            My experience at Je'Lash & Nail Co. has been exceptional! The owner/expert is highly skilled, and I always leave feeling refreshed and beautiful. Couldn't be happier with their services!
                         </p>
                         <h2>Eruz Kin Sartillo</h2>
                         <h3>Student</h3>
@@ -401,51 +426,34 @@
             <div class="container">
                 <div class="section-header text-center">
                     <p>The One-Man Team</p>
-                    <h2>Meet the Experts Behind the Business</h2>
+                    <h2>Meet the Person Behind Je'Lash & Nail Co.</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-6 order-lg-2">
                         <div class="team-item">
                             <div class="team-img">
                                 <img src="img/team-1.jpg" alt="Team Image">
                             </div>
-                            <div class="team-text">
+                            <div class="team-text text-center">
                                 <h2>Genela Manuevo</h2>
-                                <p>Manicure Expert</p>
+                                <p>Je'Lash & Nail Co. Owner</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Genela Manuevo</h2>
-                                <p>Pedicure Expert</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Genela Manuevo</h2>
-                                <p>Lash Enhancement Expert</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Genela Manuevo</h2>
-                                <p>Massage Expert</p>
-                            </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="team-description-home">
+                            <p>
+                                <b><span style="font-size: 20px;">Genela Manuevo</span></b>, aged 25 owns Je'Lash & Nail Co. in Balanacan Pier, Mogpog, Marinduque, Philippines,
+                                specializing in nail care and lash enhancements. Instead of a traditional salon, she offers personalized services at clients' homes or her location.
+                            </p>
+                            <p>
+                                Genela's expertise in beauty services ensures that every client receives personalized care and attention to detail.
+                                With a focus on quality and client satisfaction, Je'Lash & Nail Co. has become a trusted destination for those seeking professional nail and lash treatments in the area.
+                            </p>
+                            <p>
+                                What sets Genela apart is not just her skill but also her warm hospitality and commitment to creating a welcoming environment for her clients...
+                            </p>
+                            <a class="btn-read" href="team.html">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
