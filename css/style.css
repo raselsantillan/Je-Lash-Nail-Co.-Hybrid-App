@@ -1,19 +1,10 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
-body {    
+body {
     color: #797979;
     background: #ffffff;
     font-family: 'Open Sans', sans-serif;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }
 
 h1,
@@ -1571,6 +1562,56 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 
 
+
+/***************************************/
+/********* Privacy Policy CSS **********/
+/***************************************/
+.privacy-policy {
+    margin: 45px 0;
+}
+
+.privacy-policy h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #1d2434;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.privacy-policy h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #1d2434;
+    font-weight: bold;
+}
+
+.privacy-policy p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+@media (max-width: 767.98px) {
+    .privacy-policy h3 {
+        font-size: 20px;
+    }
+
+    .privacy-policy h4 {
+        font-size: 16px;
+    }
+
+    .privacy-policy p {
+        font-size: 14px;
+        padding-bottom: 0;
+        border-bottom: none; 
+    }
+}
+  
+
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
@@ -1679,13 +1720,14 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 
 .footer .copyright {
+    text-align: center;
     padding: 0 30px;
 }
 
 .footer .copyright .row {
     background: #ffffff;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .footer .copyright p {
@@ -1693,22 +1735,13 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     color: #454545;
 }
 
-.footer .copyright .col-md-6:last-child p {
-    text-align: right;
-}
-
 .footer .copyright p a {
     color: #1d2434;
     font-weight: 700;
 }
 
-.footer .copyright p a:hover {
-    color: #D5B981;
-}
-
 @media (max-width: 767.98px) {
-    .footer .copyright p,
-    .footer .copyright .col-md-6:last-child p {
+    .footer .copyright p {
         margin: 5px 0;
         text-align: center;
     }
